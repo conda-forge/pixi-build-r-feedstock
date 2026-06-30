@@ -5,7 +5,7 @@ schema_version: 1
 context:
   name: pixi-build-r
   crate_name: pixi_build_r
-  version: "0.1.3"
+  version: "0.1.4"
 
 package:
   name: ${{ name }}
@@ -14,7 +14,7 @@ package:
 source:
   url: https://github.com/prefix-dev/pixi/archive/refs/tags/${{ name }}-v${{ 
     version }}.tar.gz
-  sha256: 905b2c29507ffc022d17b24f25ace2da88f77452bb841cf5767c48b6c97fdae4
+  sha256: f2699c638921cea831431da948f01c5f33a7675eae3eec920801a71b3951a0e0
 
 build:
   number: 0
