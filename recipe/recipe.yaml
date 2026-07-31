@@ -5,7 +5,7 @@ schema_version: 1
 context:
   name: pixi-build-r
   crate_name: pixi_build_r
-  version: "0.1.5"
+  version: "0.1.6"
 
 package:
   name: ${{ name }}
@@ -14,7 +14,7 @@ package:
 source:
   url: https://github.com/prefix-dev/pixi/archive/refs/tags/${{ name }}-v${{ 
     version }}.tar.gz
-  sha256: 6f1c3d9878409760abd327543836e1eefbd40046b143eb891a1844ba9b43870c
+  sha256: b906dba0c9ef5053694a23429f7f0145fbbcbebca36a0be5202f044bcd4edc71
 
 build:
   number: 0
@@ -59,7 +59,7 @@ requirements:
   - if: unix
     then: openssl
   run:
-  - pixi-build-api-version >=5,<6
+  - pixi-build-api-version >=6,<7
 
 tests:
 - script:
