@@ -221,5 +221,6 @@ Feedstock Maintainers
 
 * [@Hofer-Julian](https://github.com/Hofer-Julian/)
 * [@baszalmstra](https://github.com/baszalmstra/)
+* [@lucascolley](https://github.com/lucascolley/)
 * [@ruben-arts](https://github.com/ruben-arts/)
 
